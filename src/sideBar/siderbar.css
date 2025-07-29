@@ -1,0 +1,35 @@
+.sideBar{
+    background-color: #090040;
+}
+
+.icon{
+    margin: 0px 0px 0px 16px;
+    height: 30px;
+}
+
+
+
+@media screen and (max-width: 870px) {
+    .sideBar{
+        background-color: transparent;
+    }
+
+    .mainCourseContent{
+        display: none;
+    }
+    .logOut{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+        background-color: #090040;
+    }
+
+    .mainCourseMobile{
+        display: flex;
+    }
+    .mobileLogOut{
+        display: flex;
+    }
+    
+}

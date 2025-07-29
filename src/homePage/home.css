@@ -1,0 +1,118 @@
+.mainHome{
+    background-image: url(../assets/pexels-weekendplayer-186464.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.312);
+    z-index: 1;
+}
+
+.logo span {
+    color: #6EACDA;
+}
+
+.desckContent{
+    color: rgba(255, 255, 255, 0.619);
+}
+
+.buttonLestStarted{
+    background-color: #E2E2B6;
+    padding: 15px;
+    color: rgba(0, 0, 0, 0.775);
+    border-radius: 100px;
+}
+
+.signUp{
+    background-color: #E2E2B6;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.751);
+}
+
+
+@media screen and (max-width: 1000px) {
+    .contentHome h2{
+        font-size: 6.5vw;
+    }
+
+    .contentHome p {
+        font-size: 2vw;
+    }
+
+    .nav h2{
+        margin-left: 2vw;
+    }
+
+    .nav button {
+        margin-right: 2.5vw;
+        padding: 0.5vh 2vw;
+        font-size: 2vw;
+        border-radius: 10px;
+    }
+
+    .buttonDetailWeb{
+        gap: 2.8vw;
+    }
+
+    .buttonLestStarted{
+        font-size: 1.8vw;
+        padding: 1.4vw;
+    }
+
+    .iconRow{
+        width: 3vw;
+        height: 3vh;
+    }
+
+    .buttonMoreDetail{
+        font-size: 1.8vw;
+
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .nav button {
+        margin-right: 2.5vw;
+        padding: 1vh 4vw;
+        font-size: 2vw;
+        border-radius: 10px;
+    }
+
+      .contentHome h2{
+        font-size: 7.5vw;
+    }
+
+    .contentHome p {
+        font-size: 2.5vw;
+    }
+
+    .nav h2{
+        margin-left: 2vw;
+    }
+
+    .buttonDetailWeb{
+        gap: 2.8vw;
+    }
+
+    .buttonLestStarted{
+        font-size: 2.2vw;
+        padding: 1.6vw;
+    }
+
+    .iconRow{
+        width: 3vw;
+        height: 3vh;
+    }
+
+    .buttonMoreDetail{
+        font-size: 2.3vw;
+
+    }
+}
+
+

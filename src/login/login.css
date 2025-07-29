@@ -1,0 +1,67 @@
+.lefhSide{
+    width: 50vw;
+    height: 100vh;
+    z-index: 1;
+    background-image: url(../assets/adam-nowakowski-D4LDw5eXhgg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.rightSide{
+    width: 50vw;
+    height: 100vh;
+    background: #021526;
+    background: linear-gradient(180deg,rgba(2, 21, 38, 1) 53%, rgba(3, 52, 110, 1) 100%);
+}
+
+
+.descriptionLogin {
+    font-weight: 10 !important;
+}
+
+.logInGoogle{
+    background-color: #1b1d4abd;
+    border-radius: 100;
+}
+
+.logInGithub{
+    background-color: #1b1d4abd;
+    border-radius: 100;
+}
+
+@media screen and (max-width: 1000px) {
+    .lefhSide{
+        display: none;
+
+    }
+
+    .rightSide{
+        width: 100vw;
+        height: 100vh;
+        background: #021526;
+        background: linear-gradient(180deg,rgba(2, 21, 38, 1) 53%, rgba(3, 52, 110, 1) 100%);
+    }
+
+    .rightSide h2 {
+        font-size: 6vw;
+    }
+
+    .rightSide p {
+        font-size: 2vw;
+    }
+
+    .logInGoogle button{
+        font-size: 3vw;
+    }
+
+    .logInGithub button{
+        font-size: 3vw;
+    }
+
+    .iconLogin{
+        width: 30;
+        height: 30;
+    }
+    
+}
