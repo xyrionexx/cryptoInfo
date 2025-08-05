@@ -13,7 +13,7 @@ export default function Sidebar() {
   return (
     <>
       <div
-        className={`sideBar h-screen w-16 justify-between flex flex-col  transition-all duration-700 z-10 ${
+        className={`sideBar h-screen w-16 justify-between flex flex-col  transition-all duration-700 z-50 ${
           isOpen ? "mobile w-52" : "w-16"
         }`}
       >
